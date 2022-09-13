@@ -8,8 +8,9 @@
 
 <!-- Stats -->
 <div align="left">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=LBS-luis&show_icons=true&count_private=true&theme=tokyonight&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LBS-luis&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
+  <a href="https://github.com/LBS-luis">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LBS-luis&show_icons=true&count_private=true&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LBS-luis&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
 
 </div>
 
