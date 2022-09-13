@@ -2,7 +2,7 @@
 <!-- Gif -->
 <div align="center">
 <img width="100px" src="https://c.tenor.com/saF7OqqJkFsAAAAC/darling-in-the-franxx-anime.gif">
-<h2>Hi there 👋, I'm Luis</h2>
+<h3>Hi there 👋, I'm Luis</h3>
 <h3>a front-end developer from Brazil</h3>
 <br>
 </div>
