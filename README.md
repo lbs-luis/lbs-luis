@@ -15,7 +15,7 @@
 
 
 <!-- langs -->
-<div align="center"><br>
+<div align="left"><br>
   <img width="40em" alt="Luis-Js"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img width="40em" alt="Luis-Ts"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img width="40em" alt="Luis-React"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
