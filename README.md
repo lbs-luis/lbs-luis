@@ -6,15 +6,6 @@
 <br>
 </div>
 
-<!-- Stats -->
-<div align="center">
-  <a href="https://github.com/LBS-luis">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=LBS-luis&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LBS-luis&layout=defaultt&langs_count=7&theme=tokyonight&hide_border=true"/>
-</div>
-
-
-
 <!-- langs -->
 <div align="center"><br>
   <img width="40em" alt="Luis-Js"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
