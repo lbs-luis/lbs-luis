@@ -5,7 +5,7 @@
 </div>
 
 ### Hello there 👋, I'm Luis
-## I'am a technology enthusiast, Systems Analyst and Software Engineer.
+## I'am a technology enthusiast and Software Engineer.
 
 ## 🌐 Socials:
 <!-- social -->
@@ -24,8 +24,6 @@
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 #
-
-[![Top Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=LBS-luis&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
