@@ -12,25 +12,13 @@
   "editor.fontFamily": "JetBrains Mono NL",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.minimap.enabled": false,
-  // "editor.formatOnSave": true, ESSA MERDA AQUI
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "always"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   // VSCode stuff
   "breadcrumbs.enabled": false,
@@ -50,11 +38,6 @@
   // Extensions
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
-  },
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
   "git.confirmSync": false,
@@ -62,20 +45,10 @@
   "workbench.editor.empty.hint": "hidden",
   "window.commandCenter": false,
   "editor.stickyScroll.enabled": false,
-  "prisma.showPrismaDataPlatformNotification": false,
   "explorer.confirmPasteNative": false,
+  "git.ignoreRebaseWarning": true,
+  //Styles
   "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
-  "git.autofetch": true,
-  "prettier.enable": false,
-  "prettier.useEditorConfig": false,
-  "prettier.bracketSpacing": true,
-  "terminal.integrated.env.windows": {},
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Min Dark",
-  "eslint.format.enable": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "notebook.defaultFormatter": "dbaeumer.vscode-eslint",
-  "notebook.formatOnSave.enabled": true,
-  "vs-code-prettier-eslint.prettierLast": true,
-  "editor.defaultFoldingRangeProvider": "dbaeumer.vscode-eslint",
+  "workbench.colorTheme": "Min Dark"
 }
