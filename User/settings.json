@@ -1,13 +1,15 @@
 {
-  // Workbench
+  // Workbench Settings
   "workbench.iconTheme": "symbols",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "none",
-  // Editor settings
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Min Dark",
+
+  // Editor Settings
   "editor.wordWrap": "on",
   "editor.fontSize": 14,
   "editor.lineHeight": 26,
-  "terminal.integrated.fontSize": 14,
   "editor.tabSize": 2,
   "editor.fontFamily": "JetBrains Mono NL",
   "editor.fontLigatures": true,
@@ -18,37 +20,63 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always"
+    "source.fixAll": true
   },
-  // VSCode stuff
-  "breadcrumbs.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": false,
+
+  // Terminal Settings
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
+  "terminal.integrated.env.windows": {},
+
+  // Explorer Settings
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+
+  // File Nesting Settings
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.development": ".env*",
+    ".env": ".env*"
+  },
+
+  // Breadcrumbs Settings
+  "breadcrumbs.enabled": false,
+
+  // Git Settings
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+
+  // JavaScript/TypeScript Settings
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  // Emmet
+
+  // Emmet Settings
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // Extensions
+
+  // Extensions Settings
   "extensions.ignoreRecommendations": true,
+
+  // Diff Editor Settings
   "diffEditor.ignoreTrimWhitespace": false,
-  "gitlens.defaultDateFormat": null,
-  "gitlens.hovers.currentLine.over": "line",
-  "git.confirmSync": false,
-  "editor.inlineSuggest.enabled": true,
-  "workbench.editor.empty.hint": "hidden",
+
+  // Security Settings
+  "security.allowedUNCHosts": ["wsl.localhost"],
+
+  // Miscellaneous Settings
   "window.commandCenter": false,
-  "editor.stickyScroll.enabled": false,
-  "explorer.confirmPasteNative": false,
-  "git.ignoreRebaseWarning": true,
-  //Styles
-  "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Min Dark"
+  "workbench.editor.empty.hint": "hidden"
 }
